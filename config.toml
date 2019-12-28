@@ -1,0 +1,239 @@
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = ""
+languageCode = "en-US"
+title = "Only the Glass - Replacing just the glass ... preserving your window casement"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+# Metadata
+[params]
+  author = "Only the Glass"
+  description = "Only the glass provides replacement options for any style of window casements within the Greater Toronto Area"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "i/jobs/IMG_20160512_110942.jpg"
+  title = "ONLY THE GLASS"
+  description = "Professional window glass replacement services where we change the glass for your window casement"
+
+# Navigation section
+[params.nav]
+  mission = "Our Mission"
+  services = "Services"
+  team = "The Team"
+  contact = "Get In Touch"
+  # Include logo instead if HOME:
+  logo = "i/OTG-THUMBNAIL-1.PNG"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "i/jobs_resize/P_20160217_103923_1_p.jpg"
+    [[params.mission.images.list]]
+      img = "i/jobs_resize/IMG_20160331_104431.jpg"
+    [[params.mission.images.list]]
+      img = "i/jobs_resize/IMG_20151103_104900.jpg"
+    [[params.mission.images.list]]
+      img = "i/jobs_resize/IMG_20160622_112147.jpg"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "who"
+    title = "WHO"
+    subtitle = "Who we are"
+    description = "<p>We are skilled, experienced, certified glaziers that can handle any type of glass installation or situation you may have. We have an extensive background in the glass industry - from the production of thermal windows to the installation of glass wall partitions. We pride ourselves in our quality workmanship, QUICK FAST turnaround times and our ability to tackle and overcome every situation, but most importantly our customer feedback. We service all residential, commercial and industrial properties for any window related issues. We are business insured and W.S.I.B. certified. In addition we carry all licences to operate any equipment needed for any of our installs.</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+  [[params.mission.item]]
+    weight = 2
+    name = "what"
+    title = "WHAT"
+    subtitle = "What we do"
+    description = "<p>We replace the glass in your existing window - NOT the window casement.</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+  [[params.mission.item]]
+    weight = 3
+    name = "why"
+    title = "WHY"
+    subtitle = "Why we do what we do"
+    description = "<p>to provide an alternative solution to home owner with a high quality Canadian made product, excellent quick fast reliable service at a fraction of the cost than replacing the entire windows </p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+  [[params.mission.item]]
+    weight = 4
+    name = "how"
+    title = "HOW"
+    subtitle = "How we do what we do"
+    description = "<p>being honest is our number one quality. An analysis of your window situation if replacing the glass is in your best interest. Punctuality is what we pride ourselves with along with quick fast turnaround times.</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+# Services section
+[params.services]
+  enable = true
+  video = true
+  vidlink = "https://www.youtube.com/watch?v=NasbiYbZgLA"
+  title = "Our Philosophy"
+  description = "We only use quality thermal units that are IGMAC certified.  We believe that quality products along with a quality service is the equation for long lasting relationships. We've changed thousands of thermal units and worked with hundreds of people, from property management, insurances, general contractors to home owners. We are the permanent solution to all your pesky window problems."
+
+  [[params.services.item]]
+    icon = "icon-present"
+    title = "RESIDENTIAL"
+    description = "We can have any broken glass replaced with fast turnaround times. We are skilled glass technicians that can do onsite glass fabrication to match the size of your broken glass exactly. All window thermal units have an expiry date that in most cases will not last as long as the window casement. If your experiencing condensation between the panes of glass - WE CAN HELP!"
+
+  [[params.services.item]]
+    icon = "icon-eye"
+    title = "COMMERCIAL"
+    description = "If you are in a emergency scenario and need your glass replaced right away - WE CAN HELP! We carry stock size of glass that can accommodate all storefront glass size. We are very reliable and prompt and always get the job done in a timely manner. Let us know the situation and we will definitely help assist you."
+
+  [[params.services.item]]
+    icon = "icon-paper-plane"
+    title = "HIGH-RISES"
+    description = "We are capable of replacing broken glass in any highrise building. Whether it is interior or exterior glazed - we are licence for all heavy machinery and/or swing stages if required. If your building has a custom tinted glass, we can match it. No matter the placement of the window, we can ALWAYS have it replaced."
+
+#  [[params.services.item]]
+#    icon = "icon-pencil"
+#    title = "Copyrighting"
+#    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+#  [[params.services.item]]
+#    icon = "icon-rocket"
+#    title = "Load Fast"
+#    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#
+#  [[params.services.item]]
+#    icon = "icon-support"
+#    title = "Customer Support"
+#    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+# Work section
+[params.work]
+  enable = true
+
+  [[params.work.item]]
+    title = "Commercial"
+    subtitle = "Front Display windows for retailer in Queen West"
+    img = "i/jobs_resize/IMAG0335.jpg"
+
+  [[params.work.item]]
+    title = "High Rises"
+    subtitle = "Replacing apartment building windows in Ajax"
+    img = "i/jobs_resize/IMG_20150219_120235.jpg"
+
+  [[params.work.item]]
+    title = "Residential"
+    subtitle = "Upgrading thermal units in Bridle Path"
+    img = "i/jobs_resize/IMG_20151103_104900.jpg"
+
+  [[params.work.item]]
+    title = "Commercial"
+    subtitle = "Skiing eatery windows overlooking Mount St Louis"
+    img = "i/jobs_resize/IMG_20160405_102430.jpg"
+
+  [[params.work.item]]
+    title = "Residential"
+    subtitle = "Thermal Units for Estate in Old Forest Hill"
+    img = "i/jobs_resize/IMG_20160512_110942.jpg"
+
+  [[params.work.item]]
+    title = "Residential"
+    subtitle = "Patio thermal unit installations in Mississauga"
+    img = "i/jobs_resize/IMG_20160622_112147.jpg"
+
+  [[params.work.item]]
+    title = "Residential"
+    subtitle = "Replacing sealed thermal units on older home Etobicoke"
+    img = "i/jobs_resize/IMG_20160624_141653.jpg"
+
+  [[params.work.item]]
+    title = "High Rises"
+    subtitle = "High-rise installation in Markham"
+    img = "i/jobs_resize/P_20150917_082902.jpg"
+
+# Team section
+[params.team]
+  enable = true
+  title = "Meet The Team"
+  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.team.item]]
+    name = "Jean Doe"
+    position = "Chief legend"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person1.jpg"
+    email = "#"
+    telephone = "#"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+    linkedin = "#"
+    whatsapp = "#"
+
+  [[params.team.item]]
+    name = "Alice Doe"
+    position = "Chief overlord"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person2.jpg"
+    email = "#"
+    telephone = "#"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+    whatsapp = "#"
+
+  [[params.team.item]]
+    name = "John Doe"
+    position = "Chief haranguer"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person3.jpg"
+    email = "#"
+    telephone = "#"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+    whatsapp = "#"
+
+  # [[params.team.item]]
+  #   name = "Jason Doe"
+  #   position = "Chief haranguer"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #   img = "images/person3.jpg"
+  #   email = "#"
+  #   telephone = "#"
+  #   facebook = "#"
+  #   twitter = "#"
+  #   dribbble = "#"
+  #   instagram = "#"
+  #   github = "#"
+  #   whatsapp = "#"
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Get In Touch"
+  message = "WE SERVICE THE ENTIRE GTA FOR ALL YOUR WINDOW NEEDS."
+  name_placeholder = "Your name"
+  email_placeholder = "Your email"
+  email_disclaimer = "We'll never share your email with anyone else."
+  message_placeholder = "Please enter a message."
+  button_text = "Submit"
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "<p><small>&copy; 2019 Only the Glass. All Rights Reserved. <br>Sealing your failing thermal units with ♥ since 2015 </small></p>"
+  github = "#"
+  twitter = "#"
+  facebook = "#"
+  vine = "#"
+  linkedin = "#"
+  instagram = "http://www.instagram.com/onlytheglass"
+  
