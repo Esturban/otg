@@ -23,7 +23,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   team = "The Team"
   contact = "Get In Touch"
   # Include logo instead if HOME:
-  logo = "i/OTG-THUMBNAIL-1.PNG"
+  logo = "i/OTG-THUMBNAIL-1_r.PNG"
 
 # Mission section
 [params.mission]
